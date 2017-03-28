@@ -14,7 +14,7 @@ import java.awt.event.KeyEvent;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.DefaultListModel;
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;           
 
 /**
  *
@@ -68,6 +68,7 @@ public class FrmPalabras extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Mi Primer Diccionario");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Adicionar Sinónimo", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 18), new java.awt.Color(255, 153, 0))); // NOI18N
@@ -95,7 +96,7 @@ public class FrmPalabras extends javax.swing.JFrame {
 
         cmdIngresarSinonimo.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         cmdIngresarSinonimo.setForeground(new java.awt.Color(255, 153, 0));
-        cmdIngresarSinonimo.setText("Ingresar Sinónimo");
+        cmdIngresarSinonimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/cuc/ventanas/1490739089_Open.png"))); // NOI18N
         cmdIngresarSinonimo.setBorderPainted(false);
         cmdIngresarSinonimo.setContentAreaFilled(false);
         cmdIngresarSinonimo.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -108,7 +109,7 @@ public class FrmPalabras extends javax.swing.JFrame {
                 cmdIngresarSinonimoActionPerformed(evt);
             }
         });
-        jPanel2.add(cmdIngresarSinonimo, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 150, -1));
+        jPanel2.add(cmdIngresarSinonimo, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 160, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 460, 70));
 
@@ -236,7 +237,7 @@ public class FrmPalabras extends javax.swing.JFrame {
 
         cmdIngresarPalabra.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         cmdIngresarPalabra.setForeground(new java.awt.Color(255, 153, 0));
-        cmdIngresarPalabra.setText("Ingresar Palabra");
+        cmdIngresarPalabra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/cuc/ventanas/1490739089_Open.png"))); // NOI18N
         cmdIngresarPalabra.setToolTipText("");
         cmdIngresarPalabra.setBorderPainted(false);
         cmdIngresarPalabra.setContentAreaFilled(false);
@@ -250,7 +251,7 @@ public class FrmPalabras extends javax.swing.JFrame {
                 cmdIngresarPalabraActionPerformed(evt);
             }
         });
-        jPanel1.add(cmdIngresarPalabra, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 27, 130, -1));
+        jPanel1.add(cmdIngresarPalabra, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 130, -1));
 
         jPanel5.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 440, 70));
 
@@ -282,11 +283,10 @@ public class FrmPalabras extends javax.swing.JFrame {
 
         cmdIngresarPalabra1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         cmdIngresarPalabra1.setForeground(new java.awt.Color(255, 153, 0));
-        cmdIngresarPalabra1.setText("Ingresar Palabra");
+        cmdIngresarPalabra1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/cuc/ventanas/1490739089_Open.png"))); // NOI18N
         cmdIngresarPalabra1.setToolTipText("");
         cmdIngresarPalabra1.setBorderPainted(false);
         cmdIngresarPalabra1.setContentAreaFilled(false);
-        cmdIngresarPalabra1.setOpaque(false);
         cmdIngresarPalabra1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
                 cmdIngresarPalabra1MouseMoved(evt);
@@ -297,7 +297,7 @@ public class FrmPalabras extends javax.swing.JFrame {
                 cmdIngresarPalabra1ActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdIngresarPalabra1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, -1, 40));
+        jPanel4.add(cmdIngresarPalabra1, new org.netbeans.lib.awtextra.AbsoluteConstraints(315, 20, 80, 40));
 
         jPanel5.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 440, 100));
 
@@ -318,7 +318,7 @@ public class FrmPalabras extends javax.swing.JFrame {
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/cuc/ventanas/american-flag-wallpapers_6121_1440x900.jpg"))); // NOI18N
         jLabel5.setText("jLabel5");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 520));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1040, 520));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
