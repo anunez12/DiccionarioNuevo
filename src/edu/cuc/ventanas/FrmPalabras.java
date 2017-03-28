@@ -14,7 +14,7 @@ import java.awt.event.KeyEvent;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.DefaultListModel;
-import javax.swing.JOptionPane;           
+import javax.swing.JOptionPane;                    
 
 /**
  *
